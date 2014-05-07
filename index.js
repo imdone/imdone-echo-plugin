@@ -1,5 +1,4 @@
-var winston = require('winston'),
-    path    = require('path');
+var path = require('path');
 
 module.exports = function(config, repo) {
   return new EchoPlugin(config, repo);
@@ -10,7 +9,7 @@ function EchoPlugin(config, repo) {
   this.config = config;
   this.repo = repo;
 
-  log     = require('debug')(this.config.name || 'imdone-echo-plugin');
+  var log = require('debug')(this.config.name || 'imdone-echo-plugin');
 
   log("Logging events for: %s", repo.getId());
   

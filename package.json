@@ -1,6 +1,6 @@
 {
   "name": "imdone-echo-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "imdone-echo-plugin ==================",
   "main": "index.js",
   "scripts": {
