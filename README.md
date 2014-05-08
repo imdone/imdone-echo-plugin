@@ -1,7 +1,7 @@
 imdone-echo-plugin
 ==================
 
-Example plugin for iMDone that logs to the console using debug
+Example plugin for iMDone that logs to the console
 
 Getting started with iMDone plugins
 ----
@@ -11,8 +11,7 @@ iMDone loads plugins that are mentioned in the `.imdone/config.json` file in you
 ### Install
 1. `npm install -g imdone-echo-plugin`
 2. `cd /my/project/folder` One that already has a `.imdone/config` or create it.
-3. `export DEBUG=imdone:echo`
-4. `imdone -o`
+3. `imdone -o`
 
 ### Plugin interface
 All plugins should expect a config and repo.  Take a look at this example config.  The plugins hash contains the plugin package name or path with it's config hash as the value.  Repo is the [Repository](https://github.com/imdone/imdone-core/blob/master/lib/repository.js) object for the project.

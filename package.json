@@ -1,6 +1,6 @@
 {
   "name": "imdone-echo-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A sample iMDone plugin that logs to the console with debug",
   "main": "index.js",
   "scripts": {
